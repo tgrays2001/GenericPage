@@ -1,0 +1,115 @@
+#Nav{
+	width: 800px;
+	height: 35px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 3px 2px 3px #333333;
+	background-color: #000000;
+	 border-radius: 8px;
+}
+
+#Nav ul{
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+}
+
+#Nav li{
+	width: 50px;
+	height: 10px;
+	display: block;
+	float:left;
+	padding: 8px 30px;
+}
+
+#Nav a{
+	text-decoration: none;
+	color: #00F;
+	padding: 8px 8px 8px 8px;
+}
+
+#Nav a:hover{
+	color: #F90;
+	background-color: #FFF;
+}
+
+.submenu {
+	display: block;
+	/*width:100px;*/
+	position:relative;
+	top: 6px;
+	left: -20px;
+	z-index:500;
+}
+
+.submenu li {
+	width: 100px;
+	background-color: red;
+	display:block;
+}
+#Sidebar{
+	float:right;
+	width: 200px;
+	height: 300px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 3px 2px 3px #333333;
+	background-color: #8AD9FF;
+	 border-radius: 8px;
+}
+
+#Sidebar ul{
+	height: auto;
+	padding: 8px 0px;
+	margin: 0px;
+}
+
+#Sidebar li{
+	display: inline;
+	padding: 20px;
+}
+
+#Sidebar a{
+	text-decoration: none;
+	color: #00F;
+	padding: 8px 8px 8px 8px;
+}
+
+#Sidebar a:hover{
+	color: #F90;
+	background-color: #FFF;
+}
+
+	
+
+body {
+image-resolution: snap;
+	position: relative;
+	top:0;
+	left:0;
+}
+
+#bgimage {
+	content:"";
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-attachment: scroll;
+	background-size: contain;
+	background-position: 50% 20%;
+	background: url(images.jpg);
+	opacity: 0.5;
+	z-index:-500;
+}
+	
+	
+	
+	
